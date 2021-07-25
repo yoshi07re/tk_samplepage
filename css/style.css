@@ -26,12 +26,6 @@ body {
   color: #333;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .c-link:hover {
-    opacity: 0.7;
-  }
-}
-
 /* variables
 --------------------------- */
 :root {
@@ -207,6 +201,12 @@ body {
   display: inline-block;
   line-height: 1;
   text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .c-link:hover {
+    opacity: 0.7;
+  }
 }
 
 /* Project
