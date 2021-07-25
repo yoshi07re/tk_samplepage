@@ -91,7 +91,7 @@ body {
 .l-footer {
   display: block;
   width: 100%;
-  padding: clamp(24px, 4vw, 32px) 4vw;
+  padding: clamp(16px, 4vw, 24px) 4vw;
   background: #333;
 }
 
@@ -132,7 +132,7 @@ body {
 }
 
 .c-footer__item {
-  width: 46px;
+  width: 42px;
   height: auto;
 }
 
