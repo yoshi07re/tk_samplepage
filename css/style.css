@@ -391,7 +391,7 @@ body {
   margin-top: 0;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 768px) {
   .p-sample04 {
     grid-template-columns: 1fr 1fr;
   }
