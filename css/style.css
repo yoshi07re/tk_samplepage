@@ -356,23 +356,19 @@ body {
 @media screen and (min-width: 640px) {
   .p-sample03--mediacolumn02 .p-sample03__list {
     grid-template-rows: 1fr;
-    grid-template-columns: repeat(12, 1fr);
-  }
-
-  .p-sample03.p-sample03--mediacolumn02 .p-sample03__item {
-    grid-column: span 6;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (min-width: 768px) {
-  .p-sample03.p-sample03--mediacolumn02 .p-sample03__item {
-    grid-column: span 4;
+  .p-sample03--mediacolumn02 .p-sample03__list {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .p-sample03.p-sample03--mediacolumn02 .p-sample03__item {
-    grid-column: span 3;
+  .p-sample03--mediacolumn02 .p-sample03__list {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
