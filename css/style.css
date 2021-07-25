@@ -146,9 +146,10 @@ body {
   display: flex;
   align-items: center;
   font-size: clamp(20px, 4vw, 24px);
+  font-feature-settings: "palt";
   color: #a83c38;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.68px;
 }
 
 .c-title__lv2::before {
