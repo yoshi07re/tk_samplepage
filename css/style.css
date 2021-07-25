@@ -173,8 +173,7 @@ body {
   letter-spacing: 2.48px;
 }
 
-.c-text:first-child,
-.c-text:last-child {
+.c-text:first-child {
   margin-top: 0;
 }
 
@@ -386,6 +385,10 @@ body {
 .p-sample04__title {
   font-size: clamp(20px, 2vw, 24px);
   letter-spacing: 2.2px;
+}
+
+.p-sample04__text {
+  margin-top: 0;
 }
 
 @media screen and (min-width: 640px) {
