@@ -117,6 +117,10 @@ body {
   font-feature-settings: "palt";
 }
 
+.c-explanation.-none {
+  color: #fefefe;
+}
+
 /* footer
 --------------------------- */
 .c-footer__sns {
@@ -330,7 +334,7 @@ body {
 
 @media screen and (min-width: 640px) {
   .p-sample03--mediacolumn01 .p-sample03__list {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(304px, 1fr));
   }
 }
 
