@@ -167,7 +167,7 @@ body {
 
 .c-text {
   margin-top: clamp(8px, 2vw, 16px);
-  font-size: clamp(16px, 4vw, 18px);
+  font-size: 16px;
   font-feature-settings: "palt";
   letter-spacing: 2.48px;
 }
@@ -177,8 +177,8 @@ body {
 }
 
 .c-text.-small {
-  margin-top: clamp(4px, 2vw, 8px);
-  font-size: clamp(14px, 2vw, 15px);
+  margin-top: 4px;
+  font-size: 14px;
   color: #888;
 }
 
@@ -315,7 +315,7 @@ body {
 .p-sample03__name {
   order: 2;
   margin-top: 16px;
-  font-size: clamp(18px, 4vw, 20px);
+  font-size: 18px;
 }
 
 .p-sample03__image {
