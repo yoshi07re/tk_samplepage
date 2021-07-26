@@ -169,7 +169,7 @@ body {
 
 .c-text {
   margin-top: 4px;
-  line-height: 1.6;
+  line-height: 1.68;
   font-size: clamp(16px, 1vw, 18px);
   letter-spacing: 1.26px;
 }
