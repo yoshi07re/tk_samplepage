@@ -443,6 +443,11 @@ body {
   grid-column: span 2;
 }
 
+.p-sample05__image02 > img,
+.p-sample05__image03 > img {
+  height: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .p-sample05 {
     grid-template-columns: repeat(6, 1fr);
@@ -459,10 +464,5 @@ body {
   .p-sample05__image01 {
     grid-row: span 2;
     grid-column: span 3;
-  }
-
-  .p-sample05__image02 > img,
-  .p-sample05__image03 > img {
-    height: 100%;
   }
 }
