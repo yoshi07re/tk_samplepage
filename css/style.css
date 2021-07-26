@@ -108,9 +108,9 @@ body {
 
 .c-logo {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(0.044em, 1vw, 0.12em);
+  font-size: clamp(24px, 3.4vw, 32px);
   font-weight: 600;
-  letter-spacing: clamp(2px, 1vw, 6px);
+  letter-spacing: clamp(0.044em, 1vw, 0.12em);
 }
 
 .c-explanation {
