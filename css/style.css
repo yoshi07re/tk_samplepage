@@ -320,7 +320,7 @@ body {
 .p-sample03__name {
   order: 2;
   margin-top: 16px;
-  font-size: 18px;
+  font-size: clamp(18px, 1vw, 20px);
 }
 
 .p-sample03__image {
