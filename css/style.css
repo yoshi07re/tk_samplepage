@@ -110,7 +110,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: clamp(24px, 4vw, 32px);
   font-weight: 600;
-  letter-spacing: 8px;
+  letter-spacing: clamp(2px, 1vw, 8px);
 }
 
 .c-explanation {
