@@ -108,7 +108,7 @@ body {
 
 .c-logo {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(24px, 4vw, 32px);
+  font-size: clamp(0.044em, 1vw, 0.12em);
   font-weight: 600;
   letter-spacing: clamp(2px, 1vw, 6px);
 }
@@ -116,7 +116,7 @@ body {
 .c-explanation {
   margin: 2px 0 0 8px;
   font-size: 14px;
-  letter-spacing: 1.08px;
+  letter-spacing: 0.032em;
 }
 
 .c-explanation.-none {
@@ -155,7 +155,7 @@ body {
   line-height: 1.3;
   color: #a83c38;
   text-transform: uppercase;
-  letter-spacing: 1.46px;
+  letter-spacing: 0.042em;
 }
 
 .c-title__lv2::before {
@@ -171,7 +171,7 @@ body {
   margin-top: 4px;
   line-height: 1.68;
   font-size: clamp(16px, 1vw, 18px);
-  letter-spacing: 1.26px;
+  letter-spacing: 0.032em;
 }
 
 .c-title__lv2 + .c-text {
@@ -235,7 +235,7 @@ body {
 .p-sample01__title {
   font-size: clamp(24px, 5vw, 48px);
   line-height: 1.3;
-  letter-spacing: 2.2px;
+  letter-spacing: 0.086em;
 }
 
 @media screen and (min-width: 640px) {
@@ -323,7 +323,7 @@ body {
   margin-top: 16px;
   line-height: 1.3;
   font-size: clamp(18px, 1vw, 20px);
-  letter-spacing: 1.46px;
+  letter-spacing: 0.032em;
 }
 
 .p-sample03__image {
@@ -371,7 +371,7 @@ body {
 .p-sample04__title {
   font-size: clamp(20px, 2vw, 24px);
   line-height: 1.3;
-  letter-spacing: 2.2px;
+  letter-spacing: 0.064em;
 }
 
 .p-sample04__text {
