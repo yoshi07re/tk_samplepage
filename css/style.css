@@ -422,35 +422,3 @@ body {
     align-self: center;
   }
 }
-
-/* sample05
---------------------------- */
-.p-sample05 {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr;
-  gap: 16px 0;
-}
-
-@media screen and (min-width: 768px) {
-  .p-sample05 {
-    grid-template-columns: repeat(6, 1fr);
-    gap: 0;
-  }
-
-  .p-sample05__title {
-    grid-row: span 2;
-    grid-column: span 2;
-    align-self: center;
-  }
-
-  .p-sample05__image01 {
-    grid-row: span 2;
-    grid-column: span 3;
-  }
-
-  .p-sample05__image02 > img,
-  .p-sample05__image03 > img {
-    height: 100%;
-  }
-}
