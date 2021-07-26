@@ -428,20 +428,24 @@ body {
 .p-sample05 {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: 1fr;
-  gap: 16px 0;
+  grid-template-columns: 1fr 1fr;
 }
 
 .p-sample05__title {
+  grid-column: span 2;
   font-size: clamp(20px, 2vw, 24px);
   line-height: 1.3;
   letter-spacing: 0.064em;
 }
 
+.p-sample05__image01 {
+  grid-column: span 2;
+  margin-top: 16px;
+}
+
 @media screen and (min-width: 768px) {
   .p-sample05 {
     grid-template-columns: repeat(6, 1fr);
-    gap: 0;
   }
 
   .p-sample05__title {
