@@ -304,7 +304,7 @@ body {
 
 .p-sample03__list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
   gap: 40px 32px;
 }
 
@@ -330,17 +330,6 @@ body {
 .p-sample03__text {
   order: 3;
   margin-top: 8px;
-}
-
-/* __mediacolumn01 */
-.p-sample03--mediacolumn01 .p-sample03__list {
-  grid-template-columns: 1fr;
-}
-
-@media screen and (min-width: 640px) {
-  .p-sample03--mediacolumn01 .p-sample03__list {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  }
 }
 
 /* __mediacolumn02 */
