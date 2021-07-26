@@ -115,6 +115,7 @@ body {
   margin: 2px 0 0 8px;
   font-size: clamp(14px, 2vw, 16px);
   font-feature-settings: "palt";
+  letter-spacing: 2.48px;
 }
 
 .c-explanation.-none {
