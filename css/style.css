@@ -429,6 +429,7 @@ body {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
+  gap: 16px;
 }
 
 .p-sample05__title {
@@ -440,12 +441,12 @@ body {
 
 .p-sample05__image01 {
   grid-column: span 2;
-  margin-top: 16px;
 }
 
 @media screen and (min-width: 768px) {
   .p-sample05 {
     grid-template-columns: repeat(6, 1fr);
+    gap: 0;
   }
 
   .p-sample05__title {
