@@ -21,8 +21,10 @@ li {
 /* base
 --------------------------- */
 body {
+  min-height: auto;
   font-family: YakuHanJP, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
     "Noto Sans JP", Meiryo, sans-serif;
+  line-height: normal;
   color: #333;
 }
 
@@ -106,7 +108,7 @@ body {
 
 .c-logo {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(24px, 2vw, 32px);
+  font-size: clamp(24px, 4vw, 32px);
   font-weight: 600;
   letter-spacing: 8px;
 }
