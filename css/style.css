@@ -241,6 +241,8 @@ body {
 @media not screen and (min-width: 640px) {
   .p-sample01 {
     grid-template-areas: "stack";
+    width: 100vw;
+    margin-left: -4vw;
   }
 
   .p-sample01 > * {
