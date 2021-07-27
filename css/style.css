@@ -469,6 +469,7 @@ body {
     grid-row: span 2;
     grid-column: span 2;
     align-self: center;
+    word-break: break-all;
     margin-right: 8px;
   }
 
