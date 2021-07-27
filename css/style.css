@@ -257,6 +257,7 @@ body {
     padding: 0 clamp(2vw, 4vw, 6vw);
     color: #fff;
     text-align: center;
+    word-break: break-all;
     mix-blend-mode: overlay;
     place-self: center;
   }
