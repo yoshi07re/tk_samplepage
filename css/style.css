@@ -23,7 +23,7 @@ li {
 body {
   display: flex;
   flex-direction: column;
-  overflow-x: height;
+  overflow-x: hidden;
   font-family: YakuHanJP, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
     "Noto Sans JP", Meiryo, sans-serif;
   line-height: normal;
