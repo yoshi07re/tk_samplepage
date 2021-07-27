@@ -21,7 +21,8 @@ li {
 /* base
 --------------------------- */
 body {
-  min-height: auto;
+  display: flex;
+  flex-direction: column;
   font-family: YakuHanJP, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
     "Noto Sans JP", Meiryo, sans-serif;
   line-height: normal;
@@ -88,6 +89,7 @@ body {
   display: block;
   width: 100%;
   padding: clamp(16px, 4vw, 24px) 4vw;
+  margin-top: auto;
   background: #333;
 }
 
