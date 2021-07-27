@@ -259,6 +259,11 @@ body {
     mix-blend-mode: difference;
     place-self: center;
   }
+
+  .p-sample01__image > img {
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100 - 222px);
+  }
 }
 
 @media screen and (min-width: 640px) {
