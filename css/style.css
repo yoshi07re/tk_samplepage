@@ -281,6 +281,11 @@ body {
     grid-row: 1;
     grid-column: 1 / 8;
     align-self: center;
+    font-size: clamp(40px, 6vw, 56px);
+  }
+
+  .p-sample01__title br {
+    display: none;
   }
 
   .p-sample01__image {
