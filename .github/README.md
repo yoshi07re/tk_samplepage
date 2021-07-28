@@ -1,21 +1,7 @@
 # name
 
-image or gif
+Yoshi
 
 ## Overview
 
-## Requirement
-
-## Usage
-
-## Features
-
-## Reference
-
-## Author
-
-[twitter](https://twitter.com/)
-
-## Licence
-
-[MIT](https://......)
+グリッドレイアウトサンプルページ
