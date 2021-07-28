@@ -134,21 +134,6 @@ body {
   justify-content: center;
 }
 
-.c-footer__icon {
-  width: 42px;
-  height: auto;
-}
-
-/* font
---------------------------- */
-.c-font__en {
-  font-family: "Montserrat", sans-serif;
-}
-
-.c-font__en.-bold {
-  font-weight: 600;
-}
-
 .c-footer__itemlinkwrap {
   position: relative;
   display: block;
@@ -195,6 +180,21 @@ body {
   .c-footer__itemlinkwrap:hover::after {
     opacity: 1;
   }
+}
+
+.c-footer__icon {
+  width: 42px;
+  height: auto;
+}
+
+/* font
+--------------------------- */
+.c-font__en {
+  font-family: "Montserrat", sans-serif;
+}
+
+.c-font__en.-bold {
+  font-weight: 600;
 }
 
 /* title text
