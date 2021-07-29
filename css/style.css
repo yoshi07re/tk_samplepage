@@ -317,7 +317,7 @@ li {
   }
 
   .p-sample01__image > img {
-    min-height: calc(var(--vh, 1vh) * 100 - 217px);
+    height: calc(var(--vh, 1vh) * 100 - 217px);
   }
 }
 
