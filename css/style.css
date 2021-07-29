@@ -9,17 +9,6 @@
 
 /* reset add
 --------------------------- */
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  list-style: none;
-}
-
-/* base
---------------------------- */
 body {
   display: flex;
   flex-direction: column;
@@ -28,6 +17,15 @@ body {
     "Noto Sans JP", Meiryo, sans-serif;
   line-height: normal;
   color: #333;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
 }
 
 /* variables
@@ -221,7 +219,7 @@ body {
   display: inline-block;
   width: 40px;
   height: 1px;
-  margin-right: 16px;
+  margin-right: clamp(8px, 2vw, 16px);
   content: "";
   background-color: #a83c38;
 }
@@ -320,7 +318,7 @@ body {
 
   .p-sample01__image > img {
     min-height: 100vh;
-    min-height: calc(var(--vh, 1vh) * 100 - 222px);
+    min-height: calc(var(--vh, 1vh) * 100 - 217px);
   }
 }
 
